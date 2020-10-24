@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChapterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/mainheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#736B6B"
+            android:text="Main Features of this Book:"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainheading"
+            android:text="Post"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:id="@+id/lyt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:text="The only available Complete Package for sure success in One-paper
+MCQs written tests"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt1">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Totally revised and updated"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt2">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All original Papers"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt3">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The first and pioneer book of PPSC Model Papers"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt4">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Original Book: All other available PPSC Papers books are prepared
+copying from this book."
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt5">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The biggest collection of Papers"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt6">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Thirty four new paper of 2019
+"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt7">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twenty six papers of2018"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt8">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tweng nine papers ot2O17"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt9">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twentyfour papers of2016"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt10">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maximum number of Papers in minimum pages and price"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt11">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Most accurate Answers with orighal Answers Keys"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt12">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Most accurate Answers with orighal Answers Keys"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt13">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrong answers in original papers are menlioned with explanation"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt14">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explanation of tricky questions in foot notes"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt15">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lnlroducing new style of paper pattem"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt16">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Department-wise arrangement and categorization"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt17">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Punjab Public Service Commission's new Syllabus for General Ability
+MCQs Test"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt18">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guidelines for preparation and written examinations"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lyt19">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="12dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/txt"
+                android:layout_toLeftOf="@+id/txt"
+                android:src="@drawable/text_steps" />
+
+
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Additional Material for English, Prepositions, Correct Words, Fill in the
+blanks, Vocabulary, Synonyms and Antonyms, Urdu, Arithmetic, le Tests,
+- lQ Exercise, General Mental Ability, Analogy euestions, Computer, More
+than 100 Keyboard Shortcuts, Computer Related Abbreviations, lmportant
+Personalities and their fields"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

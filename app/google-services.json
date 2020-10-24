@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1552655017",
+    "firebase_url": "https://ppsc-7e0ee.firebaseio.com",
+    "project_id": "ppsc-7e0ee",
+    "storage_bucket": "ppsc-7e0ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1552655017:android:5020b6fcbc92fa39b5bfb8",
+        "android_client_info": {
+          "package_name": "com.midmax.ppscbookupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1552655017-t5barvkihmn70sl3aq4nbbmm14e7m42q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midmax.ppscbookupload",
+            "certificate_hash": "2a53271974a834a02e351bc42e9c5a3e67bf7d9b"
+          }
+        },
+        {
+          "client_id": "1552655017-srt26t9r77gggldad55fhp3qhbi7hv19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-xNGpGiVkBMf9UaFOecHmCpkbz-c6q3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1552655017-srt26t9r77gggldad55fhp3qhbi7hv19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
